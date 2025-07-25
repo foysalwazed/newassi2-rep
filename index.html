@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faugie Flower Shop</title>
+  <script src="https://kit.fontawesome.com/e965220e0e.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div class="flex items-center gap-2">
+        <img src="assets/logo.png" alt="Faugie Logo" class="w-8 h-8" />
+        <h1 class="text-xl font-semibold text-orange-600">Faugie</h1>
+      </div>
+      <nav class="flex gap-6 text-sm text-gray-600">
+        <a href="#" class="hover:text-orange-500 font-semibold">Home</a>
+        <a href="#" class="hover:text-orange-500">Shop</a>
+        <a href="#" class="hover:text-orange-500">About Us</a>
+        <a href="#" class="flex items-center gap-1 hover:text-orange-500">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M3 3h2l.4 2M7 13h10l4-8H5.4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M7 13l-1 2h13" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Cart (556)
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-white py-16">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+      <div class="md:w-1/2 space-y-4 text-center md:text-left">
+        <h2 class="text-4xl font-bold">
+          ALWAYS <span class="text-orange-600 block">FRESH FLOWERS</span>
+        </h2>
+        <p class="text-gray-600">
+          Indulge your senses with the beauty and fragrance of our fresh flower shop.
+          From classic roses to exotic blooms, we offer a wide variety of fresh flowers perfect for any occasion.
+        </p>
+      </div>
+      <div class="md:w-1/2 mt-8 md:mt-0">
+        <img src="assets/hero-flower.png" alt="Flower bouquet" class="w-full max-w-sm mx-auto" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Product list -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4">
+        <span class="text-orange-600">Our</span> Plants
+      </h2>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-10">
+        Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh picks.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+     
+        <div class="bg-white shadow p-4 rounded">
+          <img src="assets/sample-flower-image.png" alt="Lily Blossom" class="w-full h-64 object-cover" />
+          <h3 class="mt-4 font-medium">Lily Blossom</h3>
+          <p class="text-orange-600 font-semibold">20 USD</p>
+          <button class="mt-2 w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 text-sm">ADD TO CART</button>
+        </div>
+
+       
+        <div class="bg-white shadow p-4 rounded">
+          <img src="assets/sample-flower-image.png" alt="Rose Delight" class="w-full h-64 object-cover" />
+          <h3 class="mt-4 font-medium">Rose Delight</h3>
+          <p class="text-orange-600 font-semibold">22 USD</p>
+          <button class="mt-2 w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 text-sm">ADD TO CART</button>
+        </div>
+
+        <div class="bg-white shadow p-4 rounded">
+          <img src="assets/sample-flower-image.png" alt="Sunset Mix" class="w-full h-64 object-cover" />
+          <h3 class="mt-4 font-medium">Sunset Mix</h3>
+          <p class="text-orange-600 font-semibold">18 USD</p>
+          <button class="mt-2 w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 text-sm">ADD TO CART</button>
+        </div>
+
+        <div class="bg-white shadow p-4 rounded">
+          <img src="assets/sample-flower-image.png" alt="Orchid Bloom" class="w-full h-64 object-cover" />
+          <h3 class="mt-4 font-medium">Orchid Bloom</h3>
+          <p class="text-orange-600 font-semibold">25 USD</p>
+          <button class="mt-2 w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 text-sm">ADD TO CART</button>
+        </div>
+
+        <div class="bg-white shadow p-4 rounded">
+          <img src="assets/sample-flower-image.png" alt="Daisy Dream" class="w-full h-64 object-cover" />
+          <h3 class="mt-4 font-medium">Daisy Dream</h3>
+          <p class="text-orange-600 font-semibold">19 USD</p>
+          <button class="mt-2 w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 text-sm">ADD TO CART</button>
+        </div>
+
+        <div class="bg-white shadow p-4 rounded">
+          <img src="assets/sample-flower-image.png" alt="Peony Charm" class="w-full h-64 object-cover" />
+          <h3 class="mt-4 font-medium">Peony Charm</h3>
+          <p class="text-orange-600 font-semibold">24 USD</p>
+          <button class="mt-2 w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 text-sm">ADD TO CART</button>
+        </div>
+
+        <div class="bg-white shadow p-4 rounded">
+          <img src="assets/sample-flower-image.png" alt="Tulip Love" class="w-full h-64 object-cover" />
+          <h3 class="mt-4 font-medium">Tulip Love</h3>
+          <p class="text-orange-600 font-semibold">21 USD</p>
+          <button class="mt-2 w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 text-sm">ADD TO CART</button>
+        </div>
+
+        <div class="bg-white shadow p-4 rounded">
+          <img src="assets/sample-flower-image.png" alt="Floral Bliss" class="w-full h-64 object-cover" />
+          <h3 class="mt-4 font-medium">Floral Bliss</h3>
+          <p class="text-orange-600 font-semibold">23 USD</p>
+          <button class="mt-2 w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700 text-sm">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <main>
+
+
+
+
+<!-- Flower & Plants  -->
+
+
+
+
+<section class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-10 items-center">
+    
+   
+    <div class="relative">
+      <img src="assets/flower-store.png" alt="Flower Arrangement" class="rounded w-full max-w-md" />
+      <img src="assets/trusted-badge.png" alt="Trusted Badge" class="absolute -top-6 -left-6 w-20" />
+    </div>
+
+    
+    <div class="space-y-4 text-gray-700 max-w-xl">
+      <h2 class="text-3xl font-bold">Flower & Plants <span class="block">Lover</span></h2>
+      <ul class="list-disc list-inside space-y-2 text-sm md:text-base">
+        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Latest Deals Section -->
+<section class="bg-gray-50 py-16">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">
+      <span class="text-orange-600">Latest</span> Deals
+    </h2>
+    <p class="text-gray-600 max-w-2xl mx-auto mb-10 text-sm md:text-base">
+      Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <div class="space-y-6">
+      
+
+
+
+
+
+        <div class="relative overflow-hidden rounded-lg">
+          <img src="assets/deal-bloom.png" alt="Bloom Plant" class="w-full h-40 object-cover" />
+          <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white">
+            <p class="text-lg font-bold">60% Off | Bloom Plant</p>
+            <button class="mt-1 text-sm underline">Shop Now</button>
+          </div>
+        </div>
+
+
+
+      
+        <div class="relative overflow-hidden rounded-lg">
+          <img src="assets/deal-ana.png" alt="Ana Plant" class="w-full h-40 object-cover" />
+          <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white">
+            <p class="text-lg font-bold">30% Off | Ana Plant</p>
+            <button class="mt-1 text-sm underline">Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+     
+
+
+      <div class="md:col-span-2">
+        <div class="relative overflow-hidden rounded-lg h-full">
+          <img src="assets/deal-zabo.png" alt="Zabo Plant" class="w-full h-full object-cover max-h-[340px]" />
+          <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white">
+            <p class="text-2xl font-bold">25% Off | Zabo Plant</p>
+            <button class="mt-2 text-sm underline">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Subscribe Section -->
+<section 
+  class=" py-16 bg-cover bg-center"
+  style="background-image: url('assets/news-letter-bg.png');"
+>
+  <div class="max-w-7xl mx-auto px-6 text-center bg-white bg-opacity-70 p-8 rounded-lg">
+    <h2 class="text-3xl font-bold mb-4">
+      Join the <span class="text-orange-600">colorful</span> Bunch
+    </h2>
+    <p class="text-gray-600 max-w-2xl mx-auto mb-8 text-sm md:text-base">
+      Be the first to get the latest updates, plant tips, and exclusive deals delivered straight to your inbox.
+    </p>
+
+    <form class="max-w-xl mx-auto flex flex-col sm:flex-row items-center gap-4">
+      <input type="email" placeholder="Enter your email address"
+        class="w-full flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 text-sm" required />
+      <button type="submit"
+        class="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg transition-all text-sm">
+        Subscribe
+      </button>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+<div class="bg-[#f9fbfd] text-gray-700">
+  <footer class="px-8 py-12">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
+      
+     
+      <div class="space-y-4">
+        <div class="flex items-center space-x-2">
+          <img src="assets/logo.png" alt="Logo" class="w-6 h-6" />
+          <span class="text-2xl font-light text-[#e06666]">faugei</span>
+        </div>
+        <p class="text-sm text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+      </div>
+
+     
+      <div class="space-y-2 text-sm">
+        <a href="#" class="block hover:underline">Home</a>
+        <a href="#" class="block hover:underline">About Us</a>
+        <a href="#" class="block hover:underline">Blog</a>
+        <a href="#" class="block hover:underline">FAQ</a>
+        <a href="#" class="block hover:underline">Contact Us</a>
+      </div>
+
+    
+      <div class="space-y-2 text-sm">
+        <a href="#" class="block hover:underline">Features</a>
+        <a href="#" class="block hover:underline">Pricing</a>
+        <a href="#" class="block hover:underline">Privacy Policy</a>
+        <a href="#" class="block hover:underline">Terms of Service</a>
+        <a href="#" class="block hover:underline">Help Center</a>
+      </div>
+
+     
+      <div class="flex space-x-4 justify-start md:justify-end mt-4 md:mt-0">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" class="w-5 h-5" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="X" class="w-5 h-5" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-5 h-5" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="w-5 h-5" /></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
